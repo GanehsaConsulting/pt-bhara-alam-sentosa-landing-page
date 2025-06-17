@@ -1,7 +1,50 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@plugin "daisyui";
 
 @custom-variant dark (&:is(.dark *));
+
+@theme {
+  /* Color */
+  --color-main: #4f6f52; /* Warna utama solid */
+  --color-mainMuted: #739072; /* Warna utama yang lebih soft */
+  --color-other: #86a789; /* Aksen tambahan */
+  --color-otherMuted: #d2e3c8; /* Warna latar / background lembut */
+
+  --color-base: #ffffff; /* Base putih */
+  --color-surface: #f1f1f1; /* Latar komponen */
+  --color-border: #e3e3e3;
+  --color-text: #252525; /* Warna teks utama */
+  --color-textMuted: #333333; /* Teks lebih redup */
+
+  /* Border Radius */
+  --radius-main: 20px;
+  --radius-secondary: 17px;
+  --radius-third: 14px;
+  --radius-btnMain: 10px;
+  --radius-btnSecondary: 7px;
+
+  /* BoxShadow */
+  --shadow-custom: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  --shadow-mainShadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --shadow-secondaryShadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  --shadow-white: rgba(255, 255, 255, 0.662) 0px 4px 16px,
+    rgba(255, 255, 255, 0.616) 0px 8px 32px;
+  --shadow-black: rgba(0, 0, 0, 0.258) 0px 4px 16px,
+    rgba(0, 0, 0, 0.268) 0px 8px 32px;
+}
+
+:root {
+  background: #00000000;
+}
+
+.bg-root {
+  @apply bg-white;
+}
+body {
+  @apply bg-white;
+}
 
 @theme inline {
   --color-background: var(--background);
@@ -119,4 +162,49 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+
+
+.linear-blur {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  border-bottom-right-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+  backdrop-filter: blur(10px);
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.linear-blur-to-b {
+  width: 100%;
+  pointer-events: none;
+  border-bottom-right-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+  backdrop-filter: blur(5px);
+  mask-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
