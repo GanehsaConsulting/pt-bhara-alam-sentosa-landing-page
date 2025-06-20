@@ -1,6 +1,5 @@
-import { LuCircleDot } from "react-icons/lu";
-import { BsThreeDots } from "react-icons/bs";
 import { SiPolkadot } from "react-icons/si";
+import { LuMapPin } from "react-icons/lu";
 export const AboutUs = () => {
     return (
         <section className="h-[70vh]">
@@ -21,13 +20,27 @@ export const AboutUs = () => {
             </div>
 
             <div
-                className="col-span-5"
+                className="col-span-5 relative"
             >
                 <img
-                    className="w-full max-h-[65vh] object-cover"
+                    className="w-full h-[50vh] md:h-[] md:max-h-[65vh] object-cover"
                     src="https://images.unsplash.com/photo-1626402679707-b248aa61e5ff?q=80&w=2231&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt=""
                 />
+                <div className="max-w-sm absolute right-3 bottom-3 border border-base/10 rounded-main px-4 py-2 space-y-2 bg-white/10 backdrop-blur-sm text-white">
+                    <p className="flex items-center gap-2 text-shadow-otherMuted text-[18px] font-semibold">
+                        <LuMapPin />
+                        Based in Bali
+                    </p>
+                    <p className="text-[16px] opacity-80 leading-5">
+                        Managing production directly from partnership farms and partner farmers in the highlands
+                    </p>
+                </div>
+                <div className="max-w-sm absolute left-3 top-3 border border-base/10 rounded-main px-4 py-2 space-y-2 bg-white/10 backdrop-blur-sm text-white">
+                    <p className="text-[16px] opacity-80 leading-5">
+                        Ensuring premium quality, product traceability, and sustainability of processes from upstream to downstream
+                    </p>
+                </div>
             </div>
         </section>
     )

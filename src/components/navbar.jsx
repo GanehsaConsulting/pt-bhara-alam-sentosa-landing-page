@@ -27,11 +27,11 @@ export const Navbar = ({ children }) => {
             <div className="fixed top-0 left-0 right-0 h-20 z-40 pointer-events-none linear-blur-to-b" />
 
             {/* Navbar */}
-            <div className={`text-white mx-4 md:mx-8 navbar fixed top-1 left-0 right-0 w-auto px-2.5 rounded-full h-14 min-h-14 z-50 transition-all duration-300
+            <div className={`text-white mx-4 md:mx-8 navbar fixed top-1 left-0 right-0 w-auto md:px-2.5 rounded-full h-14 min-h-14 z-50 transition-all duration-300
                 ${isScrolled ? "shadow-main border border-base/10 backdrop-blur-sm bg-white/10" : ""}
                 `}>
                 <div className="navbar-start">
-                    <div className="dropdown">
+                    {/* <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
@@ -50,7 +50,7 @@ export const Navbar = ({ children }) => {
                             </li>
                             <li><a>Item 3</a></li>
                         </ul>
-                    </div>
+                    </div> */}
                     <a className="px-4 py-2 bg-main/15 rounded-full text-md font-medium">PT. Bharata Alam Sentosa</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
