@@ -12,7 +12,7 @@ export const Banner = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/20 to-black/15" />
 
                 <div className="absolute bottom-0 left-0">
-                    <div className="m-24  max-w-4xl">
+                    <div className="m-10  max-w-4xl">
                         <h1 className="text-5xl font-bold text-white leading-14">
                             Trusted Exporter of Premium Hass Avocado & Coffee Blossom Honey from Indonesia
                         </h1>

@@ -208,3 +208,7 @@ body {
     rgba(255, 255, 255, 1) 100%
   );
 }
+
+.margin{
+  @apply mx-4 md:mx-10
+}
