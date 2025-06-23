@@ -4,7 +4,7 @@ export const AboutUs = () => {
         <section className="">
 
             <div
-                className="col-span-5 bg-otherMuted/0 flex md:flex-row flex-col justify-center px-10 py-16"
+                className="col-span-5 bg-otherMuted/0 flex md:flex-row flex-col justify-center md:px-10 px-4 py-10 md:py-16"
             >
                 <div className="min-w-100 text-main font-medium md:mb-0 mb-5">
                     <p className="flex items-center text-4xl">
