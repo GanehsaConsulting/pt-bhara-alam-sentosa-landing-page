@@ -50,7 +50,7 @@ export const VisionMission = () => {
 
                         <div className="absolute bottom-5 left-5 right-5 text-white z-50">
                             <div>
-                                <h1 className="text-3xl font-bold mb-3 ">
+                                <h1 className="text-3xl font-bold mb-3">
                                     Vision
                                 </h1>
                                 <p className="text-otherMuted opacity-80 font-medium text-lg">

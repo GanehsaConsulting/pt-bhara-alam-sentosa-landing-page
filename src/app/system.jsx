@@ -94,42 +94,59 @@ export const products = [
 ];
 
 
+import {
+    FiCpu,
+    FiCheckCircle,
+    FiShield,
+    FiFeather,
+    FiUsers,
+    FiTruck,
+    FiBriefcase,
+    FiAward,
+} from "react-icons/fi";
+
+
 export const whyUs = [
     {
-        icon: <FaTractor />,
+        icon: <FiCpu />,
         title: "Direct Production",
         desc: "Main products come directly from our own partner farms and farmers to ensure traceability and quality.",
     },
     {
-        icon: <FaCheckCircle />,
+        icon: <FiCheckCircle />,
         title: "Premium Export Quality",
         desc: "Products follow international export standards in sorting, packaging, and handling.",
     },
     {
-        icon: <MdVerified />,
+        icon: <FiShield />,
         title: "Certification & Food Safety",
         desc: "Supported by GAP, HACCP processes and aligned with quarantine & customs export protocols.",
     },
+    // {
+    //     icon: <FiFeather />,
+    //     title: "Eco-Friendly Ecosystem",
+    //     desc: "Sustainable farming in pesticide-free, high-altitude areas with clean natural resources.",
+    // },
+    // {
+    //     icon: <FiUsers />,
+    //     title: "Farmer Partnership",
+    //     desc: "We empower farmers through fair pricing, market access, and consistent training support.",
+    // },
     {
-        icon: <FaLeaf />,
-        title: "Eco-Friendly Ecosystem",
-        desc: "Sustainable farming in pesticide-free, high-altitude areas with clean natural resources.",
-    },
-    {
-        icon: <FaPeopleCarry />,
-        title: "Farmer Partnership",
-        desc: "We empower farmers through fair pricing, market access, and consistent training support.",
-    },
-    {
-        icon: <FaTruckMoving />,
+        icon: <FiTruck />,
         title: "Efficient Logistics System",
         desc: "Integrated logistics with reliable partners ensures timely delivery both domestically and abroad.",
     },
     {
-        icon: <FaHotel />,
+        icon: <FiBriefcase />,
         title: "HORECA & Export Services",
         desc: "We serve bulk and consistent supplies for hotels, restaurants, and overseas buyers.",
     },
+    // {
+    //     icon: <FiAward />,
+    //     title: "Trusted Brand Recognition",
+    //     desc: "Built on integrity and consistency, our brand is trusted by partners locally and globally.",
+    // },
 ];
 
 
