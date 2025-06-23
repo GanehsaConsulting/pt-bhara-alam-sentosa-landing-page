@@ -2,7 +2,7 @@ import { SiPolkadot } from "react-icons/si";
 import { LuMapPin } from "react-icons/lu";
 export const AboutUs = () => {
     return (
-        <section className="h-[70vh]">
+        <section className="">
 
             <div
                 className="col-span-5 bg-otherMuted/50 flex md:flex-row flex-col justify-center px-10 py-16"
