@@ -12,7 +12,7 @@ export const WhyUs = () => {
                     />
 
                     <div className="absolute left-0 right-0 bottom-0 space-y-3">
-                        <div className="mx-5 md:mx-3">
+                        <div className="mx-3 md:mx-3">
                             <h1 className="w-fit text-3xl font-bold  border border-base/10 rounded-main px-4 py-2 space-y-2 bg-white/10 backdrop-blur-sm text-white">
                                 Why Choose Us?
                             </h1>
@@ -39,11 +39,11 @@ export const WhyUs = () => {
                         </div>
 
                         {/* Mobile */}
-                        <div className="carousel w-full md:hidden gap-3 mb-3">
+                        <div className="carousel w-full md:hidden gap-3 mb-2">
                             {whyUs.map((el, idx) => (
                                 <div
                                     key={idx}
-                                    className={`${idx === 0 && "ml-5"} ${idx === whyUs.length - 1 && "mr-5"}
+                                    className={`${idx === 0 && "ml-2"} ${idx === whyUs.length - 1 && "mr-2"}
                                          min-h-[30vh] min-w-[50vw] border border-base/10 rounded-main p-3 space-y-2 bg-white/10 backdrop-blur-sm text-white`}
                                 >
                                     <div className="border border-surface/5 text-3xl bg-radial from-transparent to-white/30 w-fit p-3 rounded-full mb-12">

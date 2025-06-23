@@ -34,7 +34,7 @@ export const Services = () => {
                 </div>
             </section>
 
-            <section>
+            <section className="md:hidden block">
                 {/* Mobile */}
                 <div className="carousel w-full gap-3">
                     {services.map((el, idx) => (

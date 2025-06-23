@@ -141,7 +141,7 @@ export const VisionMission = () => {
                         <div className="absolute inset-0 bg-gradient-to-t from-black/5 via-black/2 to-transparent" />
 
                         {/* Content */}
-                        <div className="absolute bottom-5 left-5 right-5 text-white z-50">
+                        <div className="absolute bottom-2 left-2 right-2 text-white z-50">
                             <h1 className="text-3xl font-bold mb-3">Mission</h1>
                             <div className="flex flex-wrap gap-2">
                                 {missions.map((el, idx) => (
@@ -158,7 +158,7 @@ export const VisionMission = () => {
                                                 .querySelector(".group")
                                                 ?.classList.remove("card-hover")
                                         }
-                                        className="rounded-secondary backdrop-blur-xs bg-main/40 hover:bg-main p-3 h-fit border border-base/10 shadow-mainShadow cursor-pointer transition"
+                                        className="grow rounded-secondary backdrop-blur-xs bg-main/40 hover:bg-main p-3 h-fit border border-base/10 shadow-mainShadow cursor-pointer transition"
                                     >
                                         <div className="flex items-center gap-2">
                                             <div className="text-xl">{el.icon}</div>

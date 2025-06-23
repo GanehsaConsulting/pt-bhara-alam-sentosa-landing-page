@@ -6,7 +6,7 @@ export const Products = () => {
             <p className="text-4xl mb-3 text-main">
                 Our Products
             </p>
-            <div className="flex flex-wrap gap-3">
+            <div className="hidden md:flex flex-wrap gap-3">
                 {products.map((el, idx) => (
                     <div
                         key={idx}
@@ -27,6 +27,30 @@ export const Products = () => {
                     </div>
                 ))}
             </div>
+
+            {/* Mobile */}
+            <div className="md:hidden grid grid-flow-row gap-3">
+                {products.map((el, idx) => (
+                    <div
+                        key={idx}
+                        className={`relative max-h-[40vh] w-full`}>
+                        <img
+                            src={el.image}
+                            alt={el.title}
+                            className="w-full h-full object-cover rounded-main"
+                        />
+                        <div className={`absolute left-2 bottom-2 right-2 border border-base/10 rounded-main px-4 py-2 space-y-2 bg-black/20 backdrop-blur-sm text-white`}>
+                            <h1 className="font-semibold text-lg">
+                                {el.title}
+                            </h1>
+                            <p className="text-sm text-surface">
+                                {el.desc}
+                            </p>
+                        </div>
+                    </div>
+                ))}
+            </div>
+            {/* Mobile */}
         </section>
     )
 }
