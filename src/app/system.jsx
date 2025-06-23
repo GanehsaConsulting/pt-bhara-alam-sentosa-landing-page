@@ -62,32 +62,32 @@ export const visionMission = {
 
 export const products = [
     {
-        image: "/images/products/hass-avocado.jpg",
+        image: "https://images.unsplash.com/photo-1596119415004-be78a87f8d14?q=80&w=1062&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         title: "Hass Avocado (Grade A, B, C)",
         desc: "Premium Hass avocados harvested from Bali's highlands with distinct creamy texture and rich nutrients.",
     },
     {
-        image: "/images/products/coffee-blossom-honey.jpg",
+        image: "https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=1661&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         title: "Coffee Blossom Honey",
         desc: "Rare, floral honey collected from blooming coffee trees. Natural sweetness and high antioxidant content.",
     },
     {
-        image: "/images/products/yellow-lemon.jpg",
+        image: "https://images.unsplash.com/photo-1590502593747-42a996133562?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         title: "Yellow Lemon",
         desc: "Bright and juicy yellow lemons perfect for fresh drinks and culinary uses, grown in clean environments.",
     },
     {
-        image: "/images/products/green-lemon.jpg",
+        image: "https://images.unsplash.com/photo-1578855691621-8a08ea00d1fb?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         title: "Green Lemon",
         desc: "Fresh green lemons with a tangy citrus flavor, rich in vitamin C and ideal for everyday kitchen use.",
     },
     {
-        image: "/images/products/kintamani-coffee.jpg",
+        image: "https://images.unsplash.com/photo-1716795616787-cfc77f695af4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         title: "Kintamani Arabica Coffee",
         desc: "Specialty Arabica coffee with fruity notes, grown in the volcanic soils of Kintamani, Bali.",
     },
     {
-        image: "/images/products/palm-sugar.jpg",
+        image: "https://images.unsplash.com/photo-1551849326-3164898e3b32?q=80&w=1033&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         title: "Liquid Palm Sugar",
         desc: "Natural sweetener made from palm sap, rich in minerals and suitable for traditional and modern recipes.",
     },

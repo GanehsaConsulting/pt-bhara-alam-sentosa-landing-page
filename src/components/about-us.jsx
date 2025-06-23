@@ -1,4 +1,3 @@
-import { SiPolkadot } from "react-icons/si";
 import { LuMapPin } from "react-icons/lu";
 export const AboutUs = () => {
     return (
