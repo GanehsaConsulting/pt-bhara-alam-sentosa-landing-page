@@ -24,10 +24,10 @@ export const Navbar = ({ children }) => {
     return (
         <>
             {/* Linear blur overlay fixed on top */}
-            <div className="fixed top-0 left-0 right-0 h-20 z-40 pointer-events-none linear-blur-to-b" />
+            <div className="fixed top-0 left-0 right-0 h-20 z-888 pointer-events-none linear-blur-to-b" />
 
             {/* Navbar */}
-            <div className={`text-white mx-4 md:mx-8 navbar fixed top-1 left-0 right-0 w-auto md:px-2 rounded-full h-14 min-h-14 z-50 transition-all duration-300
+            <div className={`text-white mx-4 md:mx-8 navbar fixed top-1 left-0 right-0 w-auto md:px-2 rounded-full h-14 min-h-14 z-999 transition-all duration-300
                 ${isScrolled ? "shadow-main border border-base/10 backdrop-blur-sm bg-black/30" : ""}
                 `}>
                 <div className="navbar-start">
