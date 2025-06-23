@@ -4,16 +4,18 @@ import { Services } from "@/components/services";
 import { Products } from "@/components/products";
 import { VisionMission } from "@/components/vision-mission";
 import { WhyUs } from "@/components/why-us";
+import { Contact } from "@/components/contact";
 
 export default function Home() {
   return (
     <>
       <Banner />
       <AboutUs />
-      <WhyUs/>
+      <WhyUs />
       <VisionMission />
       <Services />
       <Products />
+      <Contact />
     </>
   );
 }
