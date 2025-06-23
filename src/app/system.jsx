@@ -5,8 +5,8 @@ import {
     FaPeopleCarry,
     FaTruckMoving,
     FaHotel,
-    MdVerified,
 } from "react-icons/fa";
+import { MdVerified } from "react-icons/md";
 
 export const hero = {
     companyName: "PT. Bharata Alam Sentosa",
@@ -135,22 +135,22 @@ export const whyUs = [
 
 export const services = [
     {
-        image: "/images/services/export.jpg",
+        image: "https://images.unsplash.com/photo-1700716465891-9e5e9f501d7d?q=80&w=2093&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         title: "International Export",
         desc: "Exporting high-quality agricultural products to Southeast Asia, the Middle East, and other global markets.",
     },
     {
-        image: "/images/services/horeca.jpg",
+        image: "https://images.unsplash.com/photo-1609143739217-01b60dad1c67?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         title: "HORECA Distribution",
         desc: "Supplying premium-quality products to hotels, restaurants, and catering services across Indonesia.",
     },
     {
-        image: "/images/services/consultation.jpg",
+        image: "https://images.unsplash.com/photo-1635450370155-d6a650322fa5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         title: "Agricultural Consultation",
         desc: "Providing training and empowerment programs to partner farmers to enhance product quality and yield.",
     },
     {
-        image: "/images/services/logistics.jpg",
+        image: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         title: "Logistics & Supply Chain",
         desc: "Managing supply chain efficiently from farm to end consumer to maintain freshness and traceability.",
     },
