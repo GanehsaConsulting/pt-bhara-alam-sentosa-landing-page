@@ -11,31 +11,31 @@ import AnimateOnScroll from "@/components/animate-on-scroll";
 export default function Home() {
   return (
     <>
-      <AnimateOnScroll once={false} animation="blurInUp" duration={0.5} delay={0.3}>
+      <AnimateOnScroll once={false} animation="blurInUp" duration={0.5} delay={0}>
         <Banner />
       </AnimateOnScroll>
 
-      <AnimateOnScroll once={false} animation="blurInUp" duration={0.5} delay={0.3}>
+      <AnimateOnScroll once={false} animation="blurInUp" duration={0.5} delay={0}>
         <AboutUs />
       </AnimateOnScroll>
 
-      <AnimateOnScroll once={false} animation="blurInUp" duration={0.5} delay={0.3}>
+      <AnimateOnScroll once={false} animation="blurInUp" duration={0.5} delay={0}>
         <WhyUs />
       </AnimateOnScroll>
 
-      <AnimateOnScroll once={false} animation="blurInUp" duration={0.5} delay={0.3}>
+      <AnimateOnScroll once={false} animation="blurInUp" duration={0.5} delay={0}>
         <VisionMission />
       </AnimateOnScroll>
 
-      <AnimateOnScroll once={false} animation="blurInUp" duration={0.5} delay={0.3}>
+      <AnimateOnScroll once={false} animation="blurInUp" duration={0.5} delay={0}>
         <Products />
       </AnimateOnScroll>
 
-      <AnimateOnScroll once={false} animation="blurInUp" duration={0.5} delay={0.3}>
+      <AnimateOnScroll once={false} animation="blurInUp" duration={0.5} delay={0}>
         <Services />
       </AnimateOnScroll>
 
-      <AnimateOnScroll once={false} animation="blurInUp" duration={0.5} delay={0.3}>
+      <AnimateOnScroll once={false} animation="blurInUp" duration={0.5} delay={0}>
         <Contact />
       </AnimateOnScroll>
     </>
