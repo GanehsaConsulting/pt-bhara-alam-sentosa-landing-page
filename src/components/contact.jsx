@@ -21,7 +21,7 @@ export const Contact = () => {
                     </p>
                     <div className="h-full grid md:grid-cols-10 gap-3">
                         <div className="col-span-5 grid grid-cols-2 space-x-3">
-                            <div className=" flex flex-col justify-between shadow-custom bg-main/30 border border-base/10 backdrop-blur-sm p-3 md:p-5 rounded-main">
+                            <div className="flex flex-col justify-between shadow-custom bg-main/30 border border-base/10 backdrop-blur-sm p-3 md:p-5 rounded-main">
                                 <FaInstagram className="text-2xl md:text-5xl text-white drop-shadow" />
                                 <div className="text-white">
                                     <p className="uppercase mb-3 text-xs font-bold">
@@ -33,7 +33,7 @@ export const Contact = () => {
                                 </div>
                             </div>
 
-                            <div className=" flex flex-col justify-between shadow-custom bg-main/30 border border-base/10 backdrop-blur-sm p-3 md:p-5 rounded-main">
+                            <div className="flex flex-col justify-between shadow-custom bg-main/30 border border-base/10 backdrop-blur-sm p-3 md:p-5 rounded-main">
                                 <FaWhatsapp className="text-2xl md:text-5xl text-white drop-shadow" />
                                 <div className="text-white">
                                     <p className="uppercase mb-3 text-xs font-bold">
