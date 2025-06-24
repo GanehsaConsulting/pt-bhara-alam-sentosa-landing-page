@@ -7,11 +7,11 @@ const items = ["Home", "About", "Why Us", "Products", "Services"]
 export const NavigationBar = () => {
     return (
         <section className="md:hidden inline-block">
-            <div className="fixed bottom-0 left-0 right-0 h-20 pointer-events-none linear-blur z-40" />
+            {/* <div className="fixed bottom-0 left-0 right-0 h-20 pointer-events-none linear-blur z-40" /> */}
 
             <nav className={`fixed bottom-3 left-3 right-3 z-[70] duration-500 ease-in-out transition-all origin-bottom-right`}>
                 <div className="flex items-center justify-center ">
-                    <ul className="flex items-center justify-center  border border-other/20 rounded-full w-fit">
+                    <ul className="flex items-center justify-center  border border-other/20 backdrop-blur-md shadow-custom rounded-full w-fit">
                         {items.map((item, id) => (
                             <li key={item}>
                                 <a
