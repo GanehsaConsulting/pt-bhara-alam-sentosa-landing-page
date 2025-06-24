@@ -2,7 +2,7 @@ import { whyUs } from "@/app/system"
 
 export const WhyUs = () => {
     return (
-        <section className="margin py-24">
+        <section id="why-us" className="margin py-24">
             <div>
                 <div className="relative overflow-hidden rounded-main h-[80vh]">
                     <img

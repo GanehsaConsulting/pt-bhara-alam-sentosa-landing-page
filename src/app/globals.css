@@ -212,3 +212,32 @@ body {
 .margin{
   @apply mx-4 md:mx-10
 }
+
+/* Default untuk PC */
+/* #land {
+  scroll-margin-top: 0px;
+} */
+
+#about {
+  scroll-margin-top: 100px;
+}
+
+#vm {
+  scroll-margin-top: 100px;
+}
+
+#why-us {
+  scroll-margin-top: 20px;
+}
+
+#products {
+  scroll-margin-top: -10px;
+}
+
+#services {
+  scroll-margin-top: 120px;
+}
+
+#kontak {
+  scroll-margin-top: 10px;
+}

@@ -1,7 +1,7 @@
 import { LuMapPin } from "react-icons/lu";
 export const AboutUs = () => {
     return (
-        <section className="">
+        <section id="about">
 
             <div
                 className="col-span-5 bg-otherMuted/0 flex md:flex-row flex-col justify-center md:px-10 px-4 py-10 md:py-16"

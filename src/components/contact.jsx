@@ -3,7 +3,7 @@ import { FaInstagram } from "react-icons/fa6";
 
 export const Contact = () => {
     return (
-        <section className="margin space-y-3 py-24">
+        <section id="contact" className="margin space-y-3 py-24">
             <p className="text-4xl mb-3 text-main">
             </p>
             <div className="relative rounded-main overflow-hidden">
@@ -24,7 +24,7 @@ export const Contact = () => {
                             <div className=" flex flex-col justify-between shadow-custom bg-main/30 border border-base/10 backdrop-blur-sm p-5 rounded-main">
                                 <FaInstagram className="text-5xl text-white drop-shadow" />
                                 <div className="text-white">
-                                    <p className="uppercase text-xs font-bold">
+                                    <p className="uppercase mb-3 text-xs font-bold">
                                         Instagram
                                     </p>
                                     <h1 className="text-xl font-medium">
@@ -36,7 +36,7 @@ export const Contact = () => {
                             <div className=" flex flex-col justify-between shadow-custom bg-main/30 border border-base/10 backdrop-blur-sm p-5 rounded-main">
                                 <FaWhatsapp className="text-5xl text-white drop-shadow" />
                                 <div className="text-white">
-                                    <p className="uppercase text-xs font-bold">
+                                    <p className="uppercase mb-3 text-xs font-bold">
                                         Whatsapp
                                     </p>
                                     <h1 className="text-xl font-medium">
