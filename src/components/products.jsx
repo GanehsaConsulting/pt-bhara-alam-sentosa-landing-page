@@ -2,7 +2,7 @@ import { products } from "@/app/system"
 
 export const Products = () => {
     return (
-        <section id="products" className="margin py-24">
+        <section id="products" className="margin py-16 md:py-24">
             <p className="text-4xl mb-3 text-main">
                 Our Products
             </p>

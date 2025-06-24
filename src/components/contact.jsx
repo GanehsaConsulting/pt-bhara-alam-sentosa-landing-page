@@ -3,7 +3,7 @@ import { FaInstagram } from "react-icons/fa6";
 
 export const Contact = () => {
     return (
-        <section id="contact" className="margin space-y-3 py-24">
+        <section id="contact" className="margin space-y-3 py-16 md:py-24">
             <p className="text-4xl mb-3 text-main">
             </p>
             <div className="relative rounded-main overflow-hidden">

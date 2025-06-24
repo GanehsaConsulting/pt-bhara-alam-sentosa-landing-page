@@ -3,8 +3,8 @@ import { services } from "@/app/system"
 export const Services = () => {
     return (
         <>
-            <section id="services" className="margin">
-                <p className="text-4xl mb-3 text-main">
+            <section id="services" className="margin  py-5 md:py-24">
+                <p className="text-4xl md:mb-3 text-main">
                     Our Services
                 </p>
                 <div className="hidden md:grid grid-cols-4 gap-3">

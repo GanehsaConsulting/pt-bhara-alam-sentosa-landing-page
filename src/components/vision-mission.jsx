@@ -36,7 +36,7 @@ export const VisionMission = () => {
 
     return (
         <>
-            <section className="margin my-24">
+            <section className="margin my-16 md:my-24">
                 <div className="hidden md:grid grid-cols-2 gap-3 h-[80vh]">
                     <div className="relative overflow-hidden rounded-main">
                         <img
