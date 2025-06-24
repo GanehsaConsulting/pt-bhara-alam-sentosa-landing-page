@@ -2,6 +2,8 @@ import { Nunito } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/ui/footer";
+import { NavigationBar } from "@/components/navigation-bar";
+import { FloatingButton } from "@/components/floating-button";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -22,6 +24,8 @@ export default function RootLayout({ children }) {
         <Navbar>
           {children}
         </Navbar>
+        <FloatingButton/>
+        <NavigationBar />
         <Footer />
       </body>
     </html>

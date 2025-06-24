@@ -167,9 +167,6 @@ body {
 
 
 .linear-blur {
-  position: absolute;
-  bottom: 0;
-  left: 0;
   width: 100%;
   pointer-events: none;
   border-bottom-right-radius: 0rem;

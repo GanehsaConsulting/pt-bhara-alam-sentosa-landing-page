@@ -20,15 +20,19 @@ export const Banner = () => {
                             Connecting Indonesia's agricultural potential with global market standards through premium quality products from Bali's highlands
                         </h2>
                         <div className="space-x-2 mt-3">
-                            <Button
-                            variant={"default"}>
-                                Explore
-                            </Button>
-                            <Button
-                            variant={"secondaryGlass"}
-                            >
-                                Get in touch!
-                            </Button>
+                            <a href="#products">
+                                <Button
+                                    variant={"default"}>
+                                    Explore
+                                </Button>
+                            </a>
+                            <a href="#services">
+                                <Button
+                                    variant={"secondaryGlass"}
+                                >
+                                    Get in touch!
+                                </Button>
+                            </a>
                         </div>
                     </div>
                 </div>

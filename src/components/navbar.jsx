@@ -27,15 +27,15 @@ export const Navbar = ({ children }) => {
     return (
         <>
             {/* Linear blur overlay fixed on top */}
-            <div className="fixed top-0 left-0 right-0 h-20 z-888 pointer-events-none linear-blur-to-b" />
+            <div className="hidden md:fixed top-0 left-0 right-0 h-20 z-888 pointer-events-none linear-blur-to-b" />
             
             {/* Navbar Mobile */}
             <div className={`md:hidden block text-white md:mx-10 navbar absolute top-1 left-0 right-0 w-auto md:px-2 rounded-full h-14 min-h-14 z-999`}>
-                <a className="px-4 py-2 bg-main/15 rounded-full text-md font-bold">PT. Bharata Alam Sentosa</a>
+                <a className="px-4 py-2 bg-main/35 rounded-full text-md font-bold">PT. Bharata Alam Sentosa</a>
             </div>
 
-            {/* Navbar Deskktop */}
-            <div className={`md:block hidden text-white mx-4 md:mx-10 navbar fixed top-1 left-0 right-0 w-auto md:px-2 rounded-full h-14 min-h-14 z-999 transition-all duration-300
+            {/* Navbar Desktop */}
+            <div className={`hidden md:flex text-white mx-4 md:mx-10 navbar md:fixed top-1 left-0 right-0 w-auto md:px-2 rounded-full h-14 min-h-14 z-999 transition-all duration-300
                 ${isScrolled ? "shadow-custom border border-base/10 backdrop-blur-sm bg-black/30" : ""}
                 `}>
                 <div className="navbar-start">
