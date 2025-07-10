@@ -4,6 +4,7 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/ui/footer";
 import { NavigationBar } from "@/components/navigation-bar";
 import { FloatingButton } from "@/components/floating-button";
+import { CustomScrollbar } from "@/components/custom-scrollbar";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
         <Navbar>
           {children}
         </Navbar>
+        <CustomScrollbar/>
         <FloatingButton />
         <NavigationBar />
         <Footer />

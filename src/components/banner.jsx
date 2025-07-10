@@ -3,9 +3,9 @@ import { Button } from "./ui/button"
 export const Banner = () => {
     return (
         <>
-            <section id="land" className={`w-screen md:h-screen h-[80vh] relative`}>
+            <section id="land" className={`w-full md:h-screen h-[80vh] relative`}>
                 <img
-                    className="w-screen md:h-screen h-[80vh] object-cover object-top"
+                    className="w-full md:h-screen h-[80vh] object-cover object-top"
                     src="https://images.unsplash.com/photo-1718829732697-740b87cf509b?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt=""
                 />

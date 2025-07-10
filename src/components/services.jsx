@@ -7,7 +7,7 @@ export const Services = () => {
                 <p className="text-4xl md:mb-3 text-main">
                     Our Services
                 </p>
-                <div className="hidden md:grid grid-cols-4 gap-3">
+                <div className="hidden md:grid grid-cols-3 gap-3">
                     {services.map((el, idx) => (
                         <div
                             key={idx}

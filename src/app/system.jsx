@@ -62,7 +62,7 @@ export const visionMission = {
 
 export const products = [
     {
-        image: "https://images.unsplash.com/photo-1596119415004-be78a87f8d14?q=80&w=1062&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image: "https://cms-ganesha.ganeshaconsulting.co.id/uploads/hass_avocado_592c6b2f15.webp",
         title: "Hass Avocado (Grade A, B, C)",
         desc: "Premium Hass avocados harvested from Bali's highlands with distinct creamy texture and rich nutrients.",
     },
@@ -82,13 +82,13 @@ export const products = [
         desc: "Fresh green lemons with a tangy citrus flavor, rich in vitamin C and ideal for everyday kitchen use.",
     },
     {
-        image: "https://images.unsplash.com/photo-1716795616787-cfc77f695af4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image: "https://cms-ganesha.ganeshaconsulting.co.id/uploads/coffe_bean_3061df5427.webp",
         title: "Kintamani Arabica Coffee",
         desc: "Specialty Arabica coffee with fruity notes, grown in the volcanic soils of Kintamani, Bali.",
     },
     {
-        image: "https://images.unsplash.com/photo-1551849326-3164898e3b32?q=80&w=1033&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        title: "Liquid Palm Sugar",
+        image: "https://cms-ganesha.ganeshaconsulting.co.id/uploads/palm_sugar_fab0476da1.webp",
+        title: "Palm Sugar",
         desc: "Natural sweetener made from palm sap, rich in minerals and suitable for traditional and modern recipes.",
     },
 ];
@@ -122,16 +122,6 @@ export const whyUs = [
         title: "Certification & Food Safety",
         desc: "Supported by GAP, HACCP processes and aligned with quarantine & customs export protocols.",
     },
-    // {
-    //     icon: <FiFeather />,
-    //     title: "Eco-Friendly Ecosystem",
-    //     desc: "Sustainable farming in pesticide-free, high-altitude areas with clean natural resources.",
-    // },
-    // {
-    //     icon: <FiUsers />,
-    //     title: "Farmer Partnership",
-    //     desc: "We empower farmers through fair pricing, market access, and consistent training support.",
-    // },
     {
         icon: <FiTruck />,
         title: "Efficient Logistics System",
@@ -142,11 +132,6 @@ export const whyUs = [
         title: "HORECA & Export Services",
         desc: "We serve bulk and consistent supplies for hotels, restaurants, and overseas buyers.",
     },
-    // {
-    //     icon: <FiAward />,
-    //     title: "Trusted Brand Recognition",
-    //     desc: "Built on integrity and consistency, our brand is trusted by partners locally and globally.",
-    // },
 ];
 
 
@@ -162,14 +147,9 @@ export const services = [
         desc: "Supplying premium-quality products to hotels, restaurants, and catering services across Indonesia.",
     },
     {
-        image: "https://images.unsplash.com/photo-1635450370155-d6a650322fa5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        title: "Agricultural Consultation",
-        desc: "Providing training and empowerment programs to partner farmers to enhance product quality and yield.",
-    },
-    {
-        image: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        title: "Logistics & Supply Chain",
-        desc: "Managing supply chain efficiently from farm to end consumer to maintain freshness and traceability.",
+        image: "https://cms-ganesha.ganeshaconsulting.co.id/uploads/alupkat_hass_a40cf03d01.webp",
+        title: "Wholesale",
+        desc: "Layanan penjualan produk agrikultur segar dan alami dalam skala besar (grosir) kepada pelaku usaha seperti restoran, hotel, kafe, katering (HORECA), toko bahan organik, distributor daerah, serta UMKM pengolah makanan/minuman.",
     },
 ];
 
