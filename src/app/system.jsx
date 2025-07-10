@@ -67,7 +67,7 @@ export const products = [
         desc: "Premium Hass avocados harvested from Bali's highlands with distinct creamy texture and rich nutrients.",
     },
     {
-        image: "https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=1661&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image: "https://plus.unsplash.com/premium_photo-1664273586802-2fd61b1e193a?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         title: "Coffee Blossom Honey",
         desc: "Rare, floral honey collected from blooming coffee trees. Natural sweetness and high antioxidant content.",
     },
