@@ -7,12 +7,17 @@ import { VisionMission } from "@/components/vision-mission";
 import { WhyUs } from "@/components/why-us";
 import { Contact } from "@/components/contact";
 import AnimateOnScroll from "@/components/animate-on-scroll";
+import { CompanyVideos } from "@/components/company-videos";
 
 export default function Home() {
   return (
     <>
       <AnimateOnScroll once={false} animation="blurInUp" duration={0.5} delay={0}>
         <Banner />
+      </AnimateOnScroll>
+
+      <AnimateOnScroll once={false} animation="blurInUp" duration={0.5} delay={0}>
+        <CompanyVideos />
       </AnimateOnScroll>
 
       <AnimateOnScroll once={false} animation="blurInUp" duration={0.5} delay={0}>
