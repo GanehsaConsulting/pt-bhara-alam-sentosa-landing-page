@@ -16,8 +16,8 @@ export default function Home() {
         <Banner />
       </AnimateOnScroll>
 
-      <AnimateOnScroll once={false} animation="blurInUp" duration={0.5} delay={0}>
         <CompanyVideos />
+      <AnimateOnScroll once={false} animation="blurInUp" duration={0.5} delay={0}>
       </AnimateOnScroll>
 
       <AnimateOnScroll once={false} animation="blurInUp" duration={0.5} delay={0}>
