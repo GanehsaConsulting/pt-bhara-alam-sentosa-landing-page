@@ -230,7 +230,7 @@ body {
 }
 
 #services {
-  @apply scroll-mt-5 md:scroll-mt-30; /* 120px */
+  @apply scroll-mt-5 md:scroll-mt-10; /* 120px */
 }
 
 #kontak {
