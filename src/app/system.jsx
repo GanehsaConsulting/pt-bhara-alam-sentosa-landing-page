@@ -149,8 +149,8 @@ export const services = [
     {
         image: "https://cms-ganesha.ganeshaconsulting.co.id/uploads/alupkat_hass_a40cf03d01.webp",
         title: "Wholesale",
-        desc: "Layanan penjualan produk agrikultur segar dan alami dalam skala besar (grosir) kepada pelaku usaha seperti restoran, hotel, kafe, katering (HORECA), toko bahan organik, distributor daerah, serta UMKM pengolah makanan/minuman.",
-    },
+        desc: "Bulk sales of fresh agricultural products to businesses like restaurants, hotels, cafes, catering (HORECA), organic stores, and food/beverage processors."
+    }
 ];
 
 

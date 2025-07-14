@@ -41,7 +41,7 @@ export const VisionMission = () => {
                     <div className="relative overflow-hidden rounded-main">
                         <img
                             className="w-full h-full rounded-main object-cover"
-                            src="https://images.unsplash.com/photo-1583029901628-8039767c7ad0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            src="https://www.monrovia.com/media/catalog/product/cache/282200fa9b94c6b3bb6408314c6a2aa7/r/e/rest_1_7_17018.webp"
                             alt=""
                         />
                         <div className="absolute bottom-0 left-0 right-0 h-50 z-40 pointer-events-none linear-blur" />
@@ -111,7 +111,7 @@ export const VisionMission = () => {
                     <div className="relative overflow-hidden rounded-main">
                         <img
                             className="w-full h-[80vh] rounded-main object-cover"
-                            src="https://images.unsplash.com/photo-1583029901628-8039767c7ad0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            src="https://www.monrovia.com/media/catalog/product/cache/282200fa9b94c6b3bb6408314c6a2aa7/r/e/rest_1_7_17018.webp"
                             alt=""
                         />
                         <div className="absolute bottom-0 left-0 right-0 h-80 z-40 pointer-events-none linear-blur" />
