@@ -73,7 +73,7 @@ export const products = [
     },
     {
         image: "https://images.unsplash.com/photo-1590502593747-42a996133562?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        title: "Ysiellow Lemon",
+        title: "Yellow Lemon",
         desc: "Bright and juicy yellow lemons perfect for fresh drinks and culinary uses, grown in clean environments.",
     },
     {
