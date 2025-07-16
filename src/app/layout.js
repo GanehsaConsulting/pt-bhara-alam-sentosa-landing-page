@@ -54,7 +54,7 @@ export const metadata = {
   },
   category: "Agriculture Export",
   classification: "Business",
-  
+
   // Open Graph Enhanced
   openGraph: {
     type: "website",
@@ -158,35 +158,35 @@ export const metadata = {
     "msapplication-TileColor": "#4ade80",
     "msapplication-config": "/browserconfig.xml",
     "theme-color": "#ffffff",
-    
+
     // Business Information
     "geo.region": "ID-BA",
     "geo.placename": "Bali, Indonesia",
     "geo.position": "-8.5069;115.2625",
     "ICBM": "-8.5069, 115.2625",
     "geo.country": "Indonesia",
-    
+
     // Industry Classification
     "classification": "Agriculture, Export, Organic Food",
     "subject": "Agricultural Export, Organic Products, Indonesian Superfood",
     "coverage": "Indonesia, Asia, Middle East, Global",
     "distribution": "Global",
     "rating": "General",
-    
+
     // Copyright and Ownership
     "copyright": "© 2024 PT. Bharata Alam Sentosa. All rights reserved.",
     "author": "PT. Bharata Alam Sentosa",
     "owner": "PT. Bharata Alam Sentosa",
-    
+
     // Cache Control
     "cache-control": "public, max-age=31536000",
-    
+
     // Security Headers
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "DENY",
     "X-XSS-Protection": "1; mode=block",
     "Referrer-Policy": "strict-origin-when-cross-origin",
-    
+
     // Performance Hints
     "dns-prefetch": "//www.google-analytics.com",
     "preconnect": "//fonts.googleapis.com",
@@ -194,7 +194,7 @@ export const metadata = {
 };
 
 // Viewport Configuration
-export const viewport: Viewport = {
+export const viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
@@ -206,11 +206,7 @@ export const viewport: Viewport = {
   colorScheme: "light",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }) {
   // Organization Structured Data
   const organizationSchema = {
     "@context": "https://schema.org",
@@ -322,8 +318,8 @@ export default function RootLayout({
   };
 
   return (
-    <html 
-      className="scroll-smooth" 
+    <html
+      className="scroll-smooth"
       lang="id"
       dir="ltr"
       prefix="og: https://ogp.me/ns#"
@@ -334,24 +330,24 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.google-analytics.com" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
-        
+
         {/* DNS Prefetch */}
         <link rel="dns-prefetch" href="//www.instagram.com" />
         <link rel="dns-prefetch" href="//maps.googleapis.com" />
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
-        
+
         {/* Resource Hints */}
         <link rel="preload" href="/fonts/nunito-var.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
         <link rel="preload" href="/images/hero-bg.webp" as="image" type="image/webp" />
-        
+
         {/* Alternative Languages */}
         <link rel="alternate" href="https://bharatafreshbali.com/" hrefLang="id" />
         <link rel="alternate" href="https://bharatafreshbali.com/en" hrefLang="en" />
         <link rel="alternate" href="https://bharatafreshbali.com/zh" hrefLang="zh" />
         <link rel="alternate" href="https://bharatafreshbali.com/ar" hrefLang="ar" />
         <link rel="alternate" href="https://bharatafreshbali.com/" hrefLang="x-default" />
-        
+
         {/* Structured Data */}
         <script
           type="application/ld+json"
@@ -365,7 +361,7 @@ export default function RootLayout({
             __html: JSON.stringify(websiteSchema),
           }}
         />
-        
+
         {/* Additional Meta Tags */}
         <meta name="HandheldFriendly" content="True" />
         <meta name="MobileOptimized" content="320" />
@@ -373,52 +369,52 @@ export default function RootLayout({
         <meta name="format-detection" content="date=no" />
         <meta name="format-detection" content="address=no" />
         <meta name="format-detection" content="email=no" />
-        
+
         {/* Security Headers */}
         <meta httpEquiv="X-Content-Type-Options" content="nosniff" />
         <meta httpEquiv="X-Frame-Options" content="DENY" />
         <meta httpEquiv="X-XSS-Protection" content="1; mode=block" />
-        
+
         {/* Performance Optimization */}
         <meta httpEquiv="Accept-CH" content="DPR, Viewport-Width, Width" />
         <meta name="optimize-mobile" content="yes" />
-        
+
         {/* Business Specific */}
         <meta name="business-type" content="Agricultural Export Company" />
         <meta name="target-country" content="Indonesia, Singapore, Malaysia, Thailand, Vietnam, UAE, Saudi Arabia" />
         <meta name="products" content="Hass Avocado, Coffee Blossom Honey, Agricultural Exports" />
         <meta name="service-area" content="Global Export, HORECA Distribution, Agricultural Consulting" />
       </head>
-      
+
       <body
         className={`${nunito.className} antialiased`}
         itemScope
         itemType="https://schema.org/WebPage"
       >
         {/* Skip to Main Content for Accessibility */}
-        <a 
-          href="#main-content" 
+        <a
+          href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 bg-blue-600 text-white p-2 z-50"
           aria-label="Skip to main content"
         >
           Skip to main content
         </a>
-        
+
         {/* Header */}
         <header role="banner" aria-label="Main navigation">
           <Navbar>
             {children}
           </Navbar>
         </header>
-        
+
         {/* Additional Components */}
         <CustomScrollbar />
         <FloatingButton />
         <NavigationBar />
-        
+
         {/* Footer */}
         <Footer />
-        
+
         {/* Google Analytics - Replace with your GA4 tracking ID */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"
@@ -438,7 +434,7 @@ export default function RootLayout({
             });
           `}
         </Script>
-        
+
         {/* Facebook Pixel - Replace with your Pixel ID */}
         <Script id="facebook-pixel" strategy="afterInteractive">
           {`
@@ -455,10 +451,10 @@ export default function RootLayout({
           `}
         </Script>
         <noscript>
-          <img 
-            height="1" 
-            width="1" 
-            style={{display: 'none'}}
+          <img
+            height="1"
+            width="1"
+            style={{ display: 'none' }}
             src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"
             alt=""
           />
