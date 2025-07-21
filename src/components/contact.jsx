@@ -1,7 +1,11 @@
+import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 
 export const Contact = () => {
+    const WaLink = "https://api.whatsapp.com/send?phone=6285143136590"
+    const IgLink = "https://www.instagram.com/bharatafresh.bali?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+
     return (
         <section id="contact" className="margin space-y-3 py-16 md:py-24">
             <p className="text-4xl mb-3 text-main">
@@ -21,7 +25,7 @@ export const Contact = () => {
                     </p>
                     <div className="h-full grid md:grid-cols-10 gap-3">
                         <div className="col-span-5 grid grid-cols-2 space-x-3">
-                            <div className="flex flex-col justify-between shadow-custom bg-main/30 border border-base/10 backdrop-blur-sm p-3 md:p-5 rounded-main">
+                            <Link href={IgLink} className="flex flex-col justify-between shadow-custom bg-main/30 border border-base/10 backdrop-blur-sm p-3 md:p-5 rounded-main">
                                 <FaInstagram className="text-2xl md:text-5xl text-white drop-shadow" />
                                 <div className="text-white">
                                     <p className="uppercase mb-3 text-xs font-bold">
@@ -31,9 +35,9 @@ export const Contact = () => {
                                         @bharatafresh.bali
                                     </h1>
                                 </div>
-                            </div>
+                            </Link>
 
-                            <div className="flex flex-col justify-between shadow-custom bg-main/30 border border-base/10 backdrop-blur-sm p-3 md:p-5 rounded-main">
+                            <Link href={WaLink} className="flex flex-col justify-between shadow-custom bg-main/30 border border-base/10 backdrop-blur-sm p-3 md:p-5 rounded-main">
                                 <FaWhatsapp className="text-2xl md:text-5xl text-white drop-shadow" />
                                 <div className="text-white">
                                     <p className="uppercase mb-3 text-xs font-bold">
@@ -43,16 +47,16 @@ export const Contact = () => {
                                         +62 851 4313 6590
                                     </h1>
                                 </div>
-                            </div>
+                            </Link>
                         </div>
-                        <div className="col-span-5">
+                        {/* <div className="col-span-5">
                             <iframe
                                 className="w-full h-full shadow-custom rounded-main"
                                 src={"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126905.92495660148!2d106.76783528258977!3d-6.288666645245213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3007a6e8e39%3A0xf83b477d03a6931f!2sGANESHA%20CONSULTING!5e0!3m2!1sid!2sid!4v1745989232101!5m2!1sid!2sid"}
                                 loading="lazy"
                                 referrerPolicy="no-referrer-when-downgrade"
                             />
-                        </div>
+                        </div> */}
                     </div>
 
                 </div>
