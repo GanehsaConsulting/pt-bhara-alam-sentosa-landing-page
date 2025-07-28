@@ -30,8 +30,8 @@ export const Footer = () => {
                             </div>
                             <div className="flex items-center gap-2">
                                 <FiPhone className="text-green-700" />
-                                <a href="https://wa.me/6285143136590" target="_blank" rel="noopener noreferrer">
-                                    +62 851-4313-6590
+                                <a href="https://wa.me/62113705565" target="_blank" rel="noopener noreferrer">
+                                    +62 113705565
                                 </a>
                             </div>
                             <div className="flex items-center gap-2">

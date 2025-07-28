@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 
 export const Contact = () => {
-    const WaLink = "https://api.whatsapp.com/send?phone=6285143136590"
+    const WaLink = "https://api.whatsapp.com/send?phone=62113705565"
     const IgLink = "https://www.instagram.com/bharatafresh.bali?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
 
     return (
@@ -44,7 +44,7 @@ export const Contact = () => {
                                         Whatsapp
                                     </p>
                                     <h1 className="text-wrap text-sm md:text-xl font-medium">
-                                        +62 851 4313 6590
+                                        +62 113 705 565
                                     </h1>
                                 </div>
                             </Link>
